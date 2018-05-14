@@ -98,8 +98,8 @@ button:hover {
 	padding-bottom: 50px;
 	background: #348796;
 	box-shadow: 
-        inset 0px 11px 8px -10px rgba(0,0,0,0.15),
-        inset 0px -11px 8px -10px rgba(0,0,0,0.15);
+        inset 0px 13px 10px -12px rgba(0,0,0,0.15),
+        inset 0px -13px 10px -12px rgba(0,0,0,0.15);
 }
 
 
@@ -109,8 +109,10 @@ button:hover {
 
 .rounded {
 	width: 25%;
-	border: 4px solid rgba(0,0,0,0.1);
+	border: 2px solid rgba(0,0,0,0.1);
 	border-radius: 50%!important;
+	box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),
+				0 6px 20px 0 rgba(0,0,0,0.19);
 
 }
 
@@ -151,4 +153,25 @@ hr {
 
 #btt:hover {
 	cursor: pointer;
+}
+
+.btn-primary {
+	background: #B8F3FF!important;
+	color: black;
+	border: 0;
+	font-weight: 600;
+}
+
+.btn-primary:hover {
+	background: #8AC6D0!important;
+	color: white;
+}
+
+.card-body {
+	background: #C5D9E3;
+}
+
+.card {
+	box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),
+				0 6px 20px 0 rgba(0,0,0,0.19);
 }

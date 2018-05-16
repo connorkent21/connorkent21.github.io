@@ -17,6 +17,10 @@ window.onload=function() {
 	$("#content").hide().fadeIn(1000); 
 } 
 
+$(document).ready(function(){
+    $(this).scrollTop(0);
+});
+
 
 $("#btt").on("click", function(){
 	$("html").animate({scrollTop: 0}, "slow");

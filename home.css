@@ -199,8 +199,14 @@ hr {
 .card-body {
 	background: #88c7f6;
 }
-
 .card {
-	box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),
+	transition: transform .2s;
+}
+.card:hover{
+	-ms-transform: scale(1.04); /* IE 9 */
+    -webkit-transform: scale(1.04); /* Safari 3-8 */
+    transform: scale(1.04);
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),
 				0 6px 20px 0 rgba(0,0,0,0.19);
+
 }
